@@ -3,7 +3,7 @@ b = 0
 
 while N >= 0:
     if N % 5 == 0:
-        bags += N // 5
+        b += N // 5
         print(b)
         break
     N -= 3
